@@ -1,0 +1,63 @@
+ body{
+    font-family: "Roboto", serif;
+ }
+ header{
+    /*arka plan ve yazı rengi verildi*/
+    background-color: #252627;
+    color: #ccc;
+    border-bottom: solid 3px red;
+}
+footer{
+    /*arka plan ve yazı rengi verildi*/
+    background-color: #252627;
+    color: #ccc;
+    font-size: 15px;
+}
+footer a{
+    color: #ccc;
+}
+#ust-menu a, #dil-menu a, #ana-menu a ,#alt-menu a ,#alt-ıcon a{
+    text-decoration: none;
+    color: #ccc;
+    display: block;
+    padding: 10px;
+    transition: 0.5s;
+}
+#logo{
+    padding: 10px 0;
+    border-bottom:solid #ccc 2px;
+}
+#ana-menu a:hover{/*hover üzerine gelindiğinde kutucuk ekleme*/
+    background-color: red;
+    transition: 1s;/*gecikme süresi verir*/
+}
+.card img{
+    width: 100%;/*Resmi ekranın tamamına sığdır*/
+}
+.card{
+    background-color: #252627;
+    padding: 10px;
+    color: #ccc;
+}
+.tur{
+    background-color: red;
+    padding: 10px;
+}
+main{
+    background-color: #ccc;
+    padding-bottom: 20px;/*en alt boşluk vermek için kullanılır*/
+}
+.card{
+    margin: 5px;
+    min-height: 100%;/*minimum kutu yükseklik*/
+}
+#soz{
+    background-color: red;
+    border: solid 5px white; /*dış boşluk*/
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
+#soz q {
+    font-size: 1.5em;
+}
